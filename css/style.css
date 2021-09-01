@@ -134,6 +134,7 @@ img{
     font-size: var(--h1-font-size);
     font-weight: var(--font-medium);
     color: var(--title-color);
+    
 }
 
 .section-subtitle{
@@ -141,6 +142,7 @@ img{
     color: var(--text-color-light);
     font-size: var(--small-font-size);
     margin-bottom: var(--mb-2);
+   
 }
 
 .section-title,

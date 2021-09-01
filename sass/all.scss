@@ -689,11 +689,7 @@
           padding-top: 4rem;
     }
     .section-title{
-          margin-bottom: 3rem;
-    }
-    .section-title::after{
-          width: 64px;
-          top: 3rem;
+          margin-bottom:3px ;
     }
     .l-header{
         top: 0;
@@ -799,6 +795,7 @@
         padding: 0 1.5rem;
         /* background-color: rgb(165, 85, 85); */
     }
+    
     .nav{
         &__logo{
             margin-left: var(--mb-1-5);
