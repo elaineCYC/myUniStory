@@ -1,0 +1,45 @@
+@import 'variable' ;
+
+/*======CLASS CSS====== */
+.section{
+    padding: 0.5rem 0 1.5rem;
+    &-title{
+        font-size: var(--h1-font-size);
+        font-weight: var(--font-medium);
+        color: var(--title-color);
+        text-align: center;
+    }
+    
+    &-subtitle{
+        display: block;
+        color: var(--text-color-light);
+        font-size: var(--small-font-size);
+        margin-bottom: var(--mb-2);
+        text-align: center;
+    }
+}
+
+/*====== LAYOUT ======*/
+.bd-grid{
+    max-width: 960px;
+    display: grid;
+    grid-template-columns: 100%;
+    gap: 1.5rem;
+    margin-left: var(--mb-2);
+    margin-right: var(--mb-2);
+}
+
+/*header layout setting*/
+.l-header{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background-color: var(--body-color);
+    opacity: 0.95;
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
