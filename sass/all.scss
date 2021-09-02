@@ -55,7 +55,7 @@
     }
     &__logo{
         @include navstyle;
-        color: var(--white-color);
+        color: var(--text-color);
         margin-left: var(--mb-0-5);
     }
     &__list{
@@ -507,7 +507,6 @@
     color: var(--first-color);
 }
 
-/* ============== projects ==============*/
 
 @media(max-width: 790px){
     .work{
@@ -536,7 +535,7 @@
                 left: -7px;
             }
             .circle-icon{
-                right: -55px;
+                left: -55px;
             }
         }
         .row-2{
@@ -560,7 +559,7 @@
             margin: 10px 0;
             section{
                 &::before,
-                &_circle-icon{
+                .circle-icon{
                     display: none;
                 }
             }
@@ -724,6 +723,9 @@
             margin-bottom: 0;
             color: var(--white-color);
         }
+        &__logo{
+            color: #fff;
+        }
     } 
     .active::after{
         background-color: var(--body-color);
@@ -800,6 +802,9 @@
         }
         &__menu{
         margin-right: var(--mb-1-5);
+        }
+        &__logo{
+            color: (--white-color);
         }
     }
     .home__img {
