@@ -60,6 +60,26 @@
     justify-content: space-between;
     margin-left: 2px;
     margin-right: 2px;
+    /*========== Button Dark/Light ==========*/
+    &__btns{
+        display: flex;
+        align-items: center;  
+    }
+    .change-theme{
+        margin-right: var(--mb-1);
+        color: RGB(247,197,21);
+        font-size: 1rem;
+        cursor: pointer;
+    }
+    &__toggle{
+        @include navstyle;
+        font-size: 1.3rem;
+        cursor: pointer;
+        margin-right:var(--mb-1);
+        &:hover{
+            color:var(--first-color);
+        }
+    }
     &__logo{
         @include navstyle;
         color: var(--text-color);
@@ -100,26 +120,7 @@
             color: var(--first-color-alt);
         }
     }
- /*========== Button Dark/Light ==========*/
-    &__btns{
-        display: flex;
-        align-items: center;  
-    }
-    .change-theme{
-        margin-right: var(--mb-1);
-        color: RGB(247,197,21);
-        font-size: 1rem;
-        cursor: pointer;
-    }
-    &__toggle{
-        @include navstyle;
-        font-size: 1.3rem;
-        cursor: pointer;
-        margin-right:var(--mb-1);
-        &:hover{
-            color:var(--first-color);
-        }
-    }
+ 
 }
 /*smaller device show dropup menu */
 .show-menu{

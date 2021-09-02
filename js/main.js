@@ -31,7 +31,7 @@ navLink.forEach(n => n.addEventListener('click', linkAction ))
 
 /*==================== DARK LIGHT THEME ====================*/ 
 const themeButton = document.getElementById('theme-button')
-const darkTheme = 'dark-theme'
+const darkTheme = 'change-theme'
 const iconTheme = 'uil-sun'
 
 // Previously selected topic (if user selected)
@@ -40,7 +40,7 @@ const selectedIcon = localStorage.getItem('selected-icon')
 
 // We obtain the current theme that the interface has by validating the dark-theme class
 const getCurrentTheme = () => document.body.classList.contains(darkTheme) ? 'dark' : 'light'
-const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'uil-sun' : 'uil-moon'
+const getCurrentIcon = () => themeButton.classList.contains(iconTheme) ? 'uil-moon' : 'uil-sun'
 
 // We validate if the user previously chose a topic
 if (selectedTheme) {
