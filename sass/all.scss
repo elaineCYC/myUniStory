@@ -412,7 +412,8 @@
                     align-items: center;
                     flex-direction: column;
                     .work_title{
-                        font-size: var(--normal-font-size);
+                        text-align: center;
+                        font-size: var(--small-font-size);
                         font-weight: var(--font-semi-bold);
                         color: var(--white-color);
                         background-color: rgb(70, 93, 168);
@@ -771,7 +772,9 @@
             align-items: center;
         }
     }
-    
+    .work_title{
+        font-size: var(--normal-font-size);
+    }
     .projects__container{
           grid-template-columns: repeat(3, 1fr);
           column-gap: 2rem;
