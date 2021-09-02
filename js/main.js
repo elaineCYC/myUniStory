@@ -119,7 +119,6 @@ sr.reveal('.home__scroll', {delay: 200})
 sr.reveal('.home__img', {origin:'right', delay: 400, rotate: { x: 10, y: 10, z: 10 },}, )
 
 /*SCROLL ABOUT*/
-sr.reveal('.about__img', {delay: 50})
 sr.reveal('.about__subtitle', {delay: 200})
 sr.reveal('.about__profession', {delay: 200})
 sr.reveal('.about__text', {delay: 300})
