@@ -745,7 +745,7 @@ img{
     bottom: 0;
 }
 .projects__link-name{
-    color: var(--text-color-light);
+    color: #fff;
 }
 
 /* ===== CONTACT =====*/
