@@ -67,7 +67,7 @@ function scrollUp(){
     else scrollUp.classList.remove('show-scroll')
 }
 window.addEventListener('scroll', scrollUp)
-/*========== about btn ==========*/
+/*========== about btn 
 
 let btn = document.querySelector('.button');
 btn.onmousemove = function(e){
@@ -78,6 +78,7 @@ btn.onmousemove = function(e){
     btn.style.setProperty('--y', y + 'px');
 
 } 
+==========*/
 /*email 提示*/
 let emails = document.getElementById('emails')
 if(emails){
